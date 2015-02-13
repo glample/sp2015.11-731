@@ -19,3 +19,6 @@ The `data/` directory contains a fragment of the German/English Europarl corpus.
 
 Basic implementation of model 1, + penalty for alignments too far from the "diagonal".
 The only difference between my first and second submission is the number of iterations, and the lambda coefficient for alignments far from the diagonal.
+
+After that I added a small penalty for words with a very different length, which slightly improved the results.
+
